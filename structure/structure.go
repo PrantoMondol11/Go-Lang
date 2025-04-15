@@ -13,4 +13,5 @@ func main() {
 	Pranto := User{"Pranto Mondol", "mondol@gmail.com", true, 22}
 
 	fmt.Printf("Details are : %+v\n", Pranto)
+	fmt.Printf("Name :%v \n Email:%v", Pranto.Name, Pranto.Email)
 }
